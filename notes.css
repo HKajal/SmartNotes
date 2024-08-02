@@ -1,0 +1,40 @@
+#p1{
+    border: 2px solid black;
+    height: 80px;
+    width: 70%;
+    text-align: center;
+    margin-left: 230px;
+    font-size: 20px;
+    color: aqua;
+    background-color: black;
+    text-transform: capitalize;
+}
+#p2{
+    border: 2px solid black;
+    height: 50px;
+    width: 70%;
+    font-size: 20px;
+    text-align: center;
+    margin-left: 230px;
+    line-height: 45px;
+}
+#txt{
+    margin-top: 10px;
+    height: 400px;
+    width: 100%;
+}
+.ll{
+    margin: 10px;
+}
+#p3{
+    border: 2px solid black;
+    height: 45px;
+    width: 70%;
+    margin-top: 420px;
+    margin-left: 230px;
+    background-color: aquamarine;
+}
+#p3 span{
+    margin: 90px;
+    text-align: center;
+}

@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="notes.css">
+</head>
+<body>
+    <div id="main">
+        <div id="p1">
+            <h1>smart notes</h1>
+        </div>
+        <div id="p2">
+            <label id="fs" class="ll">font size</label>
+            <select id="fsz" class="ll" onchange="kajal(this)" min=8 max=30 value=18>
+                <option value="">---selected---</option>
+                <option value="10">10</option>
+                <option value="10">15</option>
+                <option value="20">20</option>
+                <option value="20">25</option>
+                <option value="30">30</option>
+                <option value="30">35</option>
+                <option value="40">40</option>
+                <option value="40">45</option>
+            </select>
+            <label for="color" id="bclr" class="ll">BG-color</label>
+            <input type="color" id="bclor" class="int" name="color" onchange="bgclr(this)">
+            <label for="fclr" id="fc" class="ll">Font-color</label>
+            <input type="color" id="fclr" class="int" onchange="fgclr(this)">
+            <textarea name="textarea" id="txt" cols="113" rows="10" placeholder="write from here...."></textarea>
+        </div>
+        <div id="p3">
+            <span>word count : </span>
+            <span>word length : </span>
+        </div>
+</body>
+<script src="scriptt.js"></script>
+</html>
